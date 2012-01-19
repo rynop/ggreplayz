@@ -1,0 +1,48 @@
+#dock {
+	z-index: 200001;
+	position:fixed;
+	top: 60px;
+	right: 0;	
+	background-color: #E8E8E8;
+}
+
+#dock.small {
+	width: 70px;
+}
+
+#showDock {
+	font-size: 18px;	
+}
+
+#dockDetails {
+	height: 400px;
+	overflow: auto;
+}
+
+#dock.large {
+	width: 380px;
+}
+
+#hideDock {
+	text-decoration: line-through;
+}
+
+#ggButtons {
+	float: left;
+	border-right: 1px solid #EEEEEE;
+	margin-right: 15px;
+	padding: 0 15px 0 15px;
+}
+
+#share-widget {
+	float: left;
+}
+
+#share-widget .platform {
+	float: left;
+}
+
+#ggButtons .vote {
+	padding: 3px !important;
+	margin: 0 5px 0 5px;
+}
