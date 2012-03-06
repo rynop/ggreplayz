@@ -1,0 +1,1 @@
+$(function(){$("#topReplaysNav").addClass("active"),$("#theTable").dataTable({sDom:"<<l><f>r>t<<i><p>>",sPaginationType:"bootstrap",iDisplayLength:50})})
