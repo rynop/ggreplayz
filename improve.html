@@ -7,7 +7,7 @@
 	<meta name="Keywords" content="sc2 replay replays video game replays best sc2 games" />
 	<meta name="description" content="The best way to create and watch video replays of your sc2 games" />
 
-	<script type="text/javascript" src="http://rynop.github.com/ggreplayz/cache_js/redirection_mobile.v1329685967.js"></script>	<script>
+	<script type="text/javascript" src="http://rynop.github.com/ggreplayz/cache_js/redirection_mobile.v1331012029.js"></script>	<script>
 		SA.redirection_mobile ({
 			noredirection_param:"noredirection",
 			mobile_prefix : "m",
@@ -33,7 +33,9 @@
 	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>   -->
 	<!-- <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css" type="text/css" rel="stylesheet"> -->
 	
-	<link rel="stylesheet" type="text/css" href="http://rynop.github.com/ggreplayz/cache_css/common.v1329685967.css" />	
+	<link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.0/css/jquery.dataTables.css">
+	
+	<link rel="stylesheet" type="text/css" href="http://rynop.github.com/ggreplayz/cache_css/common.v1331012029.css" />	
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -56,7 +58,30 @@
 	<div class="navbar-inner">
 		<div class="container">
 			<a class="brand" href="http://ggreplayz.com">GGreplayz</a>
-			<ul id="mainNav" class="nav">	
+			<ul id="mainNav" class="nav">
+				<li id="topReplaysNav" class="dropdown">
+					<a data-toggle="dropdown" class="dropdown-toggle" href="#">Top replays <b class="caret"></b></a>
+					<ul class="dropdown-menu">						
+						<li><a href="/replays/topgg/">Top GGz</a></li>
+						<li><a href="/replays/topCheeze/">Top Cheeze</a></li>
+						<li><a href="/replays/newest/">Newest</a></li>
+					</ul>
+				</li>						
+				<li id="findReplaysNav" class="dropdown">
+					<a data-toggle="dropdown" class="dropdown-toggle" href="#">Find replays <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li class="nav-header">By team size</li>
+						<li><a href="/replays/byTeamSize/1">1v1</a></li>
+						<li><a href="/replays/byTeamSize/2">2v2</a></li>
+						<li><a href="/replays/byTeamSize/3">3v3</a></li>
+						<li><a href="/replays/byTeamSize/4">4v4</a></li>
+<!-- 						<li class="divider"></li> -->
+<!-- 						<li class="nav-header">By race</li>						 -->
+<!-- 						<li><a href="/replays/byTeam/Terran">Terran</a></li> -->
+<!-- 						<li><a href="/replays/byTeam/Protoss">Protoss</a></li> -->
+<!-- 						<li><a href="/replays/byTeam/Zerg">Zerg</a></li>										 -->
+					</ul>
+				</li>		
 				<li id="mainNavFaq"><a href="http://ggreplayz.com/improve.html">Help make this site better</a></li>				
 				<li id="mainNavFaq"><a href="http://ggreplayz.com/faqs.html">FAQs</a></li>
 				<li id="mainNavNews"><a href="http://ggreplayz.com/issues.html">Feature request</a></li>
@@ -65,8 +90,7 @@
 		</div>
 	</div>
 </div>
-
-				
+	
     <div class="container">
 
       <div class="content">
@@ -104,5 +128,6 @@
 </footer>
     </div> <!-- /container -->
 
-	<script type="text/javascript" src="http://rynop.github.com/ggreplayz/cache_js/common.v1329685966.js"></script>  </body>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.0/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="http://rynop.github.com/ggreplayz/cache_js/common.v1331012028.js"></script>  </body>
 </html>
