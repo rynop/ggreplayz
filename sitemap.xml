@@ -4,7 +4,12 @@
             <loc>http://ggreplayz.com/</loc> 
             <changefreq>hourly</changefreq> 
             <priority>0.8</priority> 
-    </url>     
+    </url>
+    <url> 
+            <loc>http://m.ggreplayz.com/</loc> 
+            <changefreq>hourly</changefreq> 
+            <priority>0.8</priority> 
+    </url>       
     <url> 
             <loc>http://app.ggreplayz.com/replays/topgg/</loc> 
             <changefreq>hourly</changefreq> 
